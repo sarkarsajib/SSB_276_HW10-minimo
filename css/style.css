@@ -1,0 +1,250 @@
+/*font-family: 'Playfair Display', serif;*/
+
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    color:#626262;
+}
+/*header-start*/
+header{
+    padding: 25px 0px;
+/*    border: 1px solid black;*/
+}
+.container{
+   width:90%;
+    margin: 0 auto;
+/*    border: 1px solid red;*/
+    overflow: hidden;
+}
+.logo{
+    margin-top: 2px;
+    width: 13%;
+/*    border: 1px solid red;*/
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.manu{
+   
+    width:75%;
+    float:right;
+/*    border: 1px solid red;*/
+}
+.manu ul{
+    float: right;
+}
+.manu ul li{
+    list-style: none;
+    float: left;
+}
+.manu ul li a{
+    font-family:'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 50px;
+    padding: 10px 0;
+    transition: .3s;
+    border:1px solid transparent;
+}
+.manu ul li:last-child a{
+   margin-right: 0px;
+}
+.manu ul li a:hover{
+    color: black;
+    border-bottom:1px solid black;
+}
+
+/*header-end*/
+
+
+/*banner-start*/
+.banner{}
+.banner img{
+    width: 100%;
+}
+/*banner-end*/
+/*service-start*/
+.perfect{
+    padding: 60px 0;
+}
+.container2{
+    width: 80%;
+/*    border: 1px solid red;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+.p_wrapper{}
+.c_p{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+.c_h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text{
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/*service-end*/
+/*blog-start*/
+.blog{
+    padding-top: 60px
+}
+.single{
+    width: 47%;
+/*    border: 1px solid red;*/
+    float: left;
+    margin-bottom: 50px;
+}
+.single:nth-child(even){
+    margin-left: 6%;
+    
+}
+.single img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+/*blog-end*/
+/*newsletter-start*/
+.newsletter{
+    background-color: #f0f0f0;
+    padding: 60px 0;
+}
+.container3{
+    width:60%;
+    margin: 0 auto;
+/*    border: 1px solid red;*/
+}
+.signup{
+    text-align: center;
+}
+.signup h1{
+    font-size: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+    color:#333333;
+}
+.for-form{
+    width: 350px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.for-form input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #333333;
+    width: 311px;
+    font-size: 17px;
+    padding: 10px 51px 10px 10px;
+    outline: none;
+}
+.for-form button{
+        border: none;
+    background: transparent;
+    position: absolute;
+    top: 11px;
+    /* font-size: 23px; */
+    right: -17px;
+}
+
+
+/*newsletter-end*/
+/*blog-start*/
+
+.blog-2{
+    padding: 60px 0;
+}
+/*blog-end*/
+/*load-start*/
+.load{
+    text-align: center;
+    padding:100px 0;
+        padding-bottom: 230px;
+}
+    
+
+.load button{
+    font-family:'Playfair Display', serif;
+    width:160px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #626262;;
+    font-size: 18px;
+    outline:none;
+    transition: .3s;
+    
+}
+.load button:hover{
+    background-color: #626262;
+    color: white;
+}
+
+/*load-end*/
+/*footer-start*/
+.f-part{
+        background-color: #f0f0f0;
+    padding: 35px 0;
+}
+.item{
+    width: 30%;
+    float: left;
+/*    border: 1px solid red;*/
+}
+
+.item ul{}
+.item ul li{
+    float: left;
+    list-style: none;
+}
+
+.item ul li a{
+    text-decoration: none;
+    color: #333333;
+}
+.item ul li a:last-child{
+    margin-right: 19px;
+}
+
+
+
+.socil{
+    width: 60%;
+    float: right;
+/*    border: 1px solid red;*/
+}
+
+.socil ul{
+    float:right;
+}
+.socil ul li{
+    float: left;
+    list-style: none;
+}
+.socil ul li span{}
+.socil ul li a{
+    margin-left: 36px;
+}
+/*footer-end*/
